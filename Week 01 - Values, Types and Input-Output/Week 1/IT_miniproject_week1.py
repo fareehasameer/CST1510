@@ -25,7 +25,8 @@ print(f"used gb    : {gb_used:>10.2f}")
 print(f"total gb   : {gb_total:>10.2f}")
 print(f"difference : {difference:>+10.2f}")
 print(f"percent    : {percent:>10.2f} %")
-print(f"Each 1%    : {gb_total/100:>10.2f} GB") #this will show how much 1% of storage equates to. it can make the percentage value more understandable.
+print(f"Each 1%    : {gb_total/100:>10.2f} GB") #this will show how much 1% of storage equates to. 
+# it can make the percentage value more understandable.
 
 
 print("=" * 34)
