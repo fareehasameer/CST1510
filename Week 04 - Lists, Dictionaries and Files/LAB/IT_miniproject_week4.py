@@ -82,4 +82,3 @@ for rec in records:
 print("Records over limit:",over_count)
 write_results("Week 04 - Lists, Dictionaries and Files/LAB/results.txt", results)
 #i used the entire path again so that result is saved within the week4 folder
-#tried without path and it didnt seem to work
