@@ -1,5 +1,5 @@
 """
-RECORD CHECK  -  Week 5 version
+RECORD CHECK  -  Week 5
 ================================
 Run it with:    python record_check.py
 

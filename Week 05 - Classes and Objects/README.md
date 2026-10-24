@@ -1,6 +1,6 @@
 # Week 5 — Classes and Objects
 
-**Box we build this week:** `component` — see `../system_diagram.md`
+**Box we build this week:** `component` —see `../system_diagram.md`
 
 ---
 
