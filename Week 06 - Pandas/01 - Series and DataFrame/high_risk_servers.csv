@@ -1,0 +1,3 @@
+,hostname,region,failed_logins,total_attempts,failure_rate
+0,srv-alpha,east,12,50,24.0
+2,srv-gamma,east,45,200,22.5

@@ -1,0 +1,8 @@
+member_name,workout_type,calories_burned,heart_rate,duration_mins,burn_rate_per_min,tier
+Tanuri,Cardio,1600,175,80,20.0,elite
+Fareeha,Cardio,900,165,45,20.0,advanced
+Emma,Strength,850,145,50,17.0,advanced
+Ben,Strength,600,130,40,15.0,beginner
+Farid,Cardio,480,140,30,16.0,beginner
+Sarah,Yoga,270,100,45,6.0,beginner
+Chloe,Yoga,240,95,60,4.0,beginner
