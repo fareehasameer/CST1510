@@ -30,7 +30,7 @@ line=("="*50)
  
 #the full table, so I can check the percent and status columns
 print(line)
-print("\t\tServer Storage Report")
+print("Server Storage Report")
 print(line)
 print(df)
 print(line)
@@ -40,7 +40,7 @@ print()
 #only the servers that need attention
 #this is a boolean filter
 print(line)
-print("\t\tServers Needing Attention")
+print("Servers Needing Attention")
 print(line)
 print(df[df["status"]!="OK"])
 print(line)
@@ -50,7 +50,7 @@ print()
 #how many servers fall into each status
 counts=df.groupby("status")["percent"].agg(["count"])
 print(line)
-print("\t\tCount per Status")
+print("Count per Status")
 print(line)
 print(counts)
 print(line)

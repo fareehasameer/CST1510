@@ -40,8 +40,8 @@ def load_records(path):
                 records.append(Record(label, float(value), float(limit)))
     return records
 
+# full path because the code runs from CST1510 and not LAB, so "servers.txt" isnt automatically found
 records=load_records(r"C:\Users\creep\Documents\CST1510\Week 05 - Classes and Objects\LAB\servers.txt")
-
 
 # ==================================================================== OUTPUT
 
