@@ -64,5 +64,7 @@ for record in records:
 
 print()
 print(f"{over_limit_count} of {len(records)} servers are OVER LIMIT")
+print()
+print("="*34)
 
 # ==========================================================================
