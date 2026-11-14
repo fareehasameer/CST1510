@@ -36,7 +36,7 @@ def load_raw_lines(path):
     raw_lines=[]
     with open(path) as f:
         for line in f:
-            #skipping blank lines so random blanks at the end dont crash parse_line
+            #skipping blank lines so random blanks at the end dont cause a crahs
             if line.strip():
                 raw_lines.append(line)
     return raw_lines
@@ -45,7 +45,7 @@ def load_raw_lines(path):
 # ====================================================================== INPUT
 
 #forward slashes so python doesnt read \L as an escape sequence
-#the try/except gives a message and an empty list instead of a crash if the file is missing
+#the try/except gives a message and empty list instead of a crash if file is missing
 try:
     raw_records=load_raw_lines("Week 07 - Strings and Text Manipulation/LAB/messy_lines.txt")
 except FileNotFoundError:
@@ -54,7 +54,7 @@ except FileNotFoundError:
 
 
 # ==================================================================== PROCESS
-#records holds the lines that parsed, failed_lines holds the ones that didnt
+#records holds the lines that parsed and failed_lines holds the ones that didnt
 records=[]
 failed_lines=[]
 flagged_count=0
